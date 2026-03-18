@@ -309,6 +309,7 @@
                 const buton = document.createElement("button");
                 buton.innerText = optiune;
                 buton.className = "btn-optiune";
+                buton.dataset.textOriginal = optiune;
                 buton.onclick = () => toggleSelectie(buton, optiune);
                 elementOptiuni.appendChild(buton);
             });
@@ -333,18 +334,17 @@
         }
 
         // --- RĂSPUNDE MAI TÂRZIU ---
-        function raspundeMaiTarziu() {
-            if (indexIntrebare === chestionarCurent.length - 1) return;
-            
-            // Tăiem întrebarea curentă din listă și o împingem la coadă
-            let intrebareAmanata = chestionarCurent.splice(indexIntrebare, 1)[0];
-            chestionarCurent.push(intrebareAmanata);
-            
-            // Nu incrementăm indexul, deoarece elementele s-au rearanjat
-            incarcaIntrebare();
-        }
-
-        function verificaRaspuns() {
+function raspundeMaiTarziu() {
+    if (indexIntrebare >= chestionarCurent.length - 1) {
+        alert("Aceasta este ultima întrebare din chestionar! Nu o mai poți amâna, trebuie să selectezi un răspuns.");
+        return;
+    }
+    
+    let intrebareAmanata = chestionarCurent.splice(indexIntrebare, 1)[0];
+    chestionarCurent.push(intrebareAmanata);
+    optiuniSelectateAcum = [];
+    incarcaIntrebare();
+}        function verificaRaspuns() {
             const intrebareCurenta = chestionarCurent[indexIntrebare];
             const toateButoanele = document.querySelectorAll(".btn-optiune");
             const btnConfirma = document.getElementById("btn-confirma");
@@ -372,7 +372,7 @@
             const puncteCastigate = intrebareCurenta.puncte || 1;
 
             toateButoanele.forEach(btn => {
-                let textButon = btn.innerText;
+                let textButon = btn.dataset.textOriginal;
                 let tuAiBifat = optiuniSelectateAcum.includes(textButon);
                 let eraCorectSaBifezi = texteCorecteReale.includes(textButon);
 

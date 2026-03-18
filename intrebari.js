@@ -41,14 +41,14 @@ const bazaDeDate = {
         {
              id: "2098", 
             intrebare: "Organizarea apararii impotriva incendiilor la locul de munca consta in:", 
-            optiuni: ["prevenirea incendiilor, prin luarea in evidenta a materialelor si dotarilor tehnologice care prezinta pericol de incendiu, a surselor posibile de aprindere ce pot aparea si a mijloacelor care le pot genera, precum si prin stabilirea si aplicarea masurilor specifice de prevenire a incendiilor;","organizarea interventiei de stingere a incendiilor;","afisarea instructiunilor de aparare impotriva incendiilor;","marcarea pericolului de incendiu prin dispozitii verbale "," organizarea salvarii utilizatorilor si a evacuarii bunurilor, prin intocmirea si afisarea planurilor de protectie specifice si prin mentinerea conditiilor de evacuare pe traseele stabilite"], 
+            optiuni: ["prevenirea incendiilor, prin luarea in evidenta a materialelor si dotarilor tehnologice care prezinta pericol de incendiu, a surselor posibile de aprindere ce pot aparea si a mijloacelor care le pot genera, precum si prin stabilirea si aplicarea masurilor specifice de prevenire a incendiilor;","organizarea interventiei de stingere a incendiilor;","afisarea instructiunilor de aparare impotriva incendiilor;","marcarea pericolului de incendiu prin dispozitii verbale ","organizarea salvarii utilizatorilor si a evacuarii bunurilor, prin intocmirea si afisarea planurilor de protectie specifice si prin mentinerea conditiilor de evacuare pe traseele stabilite"], 
             raspunsCorect:["A", "B" ,"C","E"],
             puncte: 2 
         },
         {
             id: "2099", 
             intrebare: "Reglementarea lucrarilor cu foc deschis presupune:", 
-            optiuni: ["stabilirea locurilor unde, periodic sau permanent, se pot efectua lucrari cu foc deschis, cum sunt topirea bitumului, arderea deseurilor combustibile, curatarile prin ardere, precum si a persoanelor care le supravegheaza;","stabilirea si marcarea locurilor cu pericol de incendiu in care este interzisa utilizarea focului  deschis;","nominalizarea persoanelor care au dreptul sa emita permis de lucru cu foc;","descrierea procedurii de emitere, semnare, aducere la cunostinta si pastrare a permisului de lucru cu foc;"," aprobarea unor instructiuni specifice de prevenire a incendiilor pentru astfel de lucrari."], 
+            optiuni: ["stabilirea locurilor unde, periodic sau permanent, se pot efectua lucrari cu foc deschis, cum sunt topirea bitumului, arderea deseurilor combustibile, curatarile prin ardere, precum si a persoanelor care le supravegheaza;","stabilirea si marcarea locurilor cu pericol de incendiu in care este interzisa utilizarea focului deschis;","nominalizarea persoanelor care au dreptul sa emita permis de lucru cu foc;","descrierea procedurii de emitere, semnare, aducere la cunostinta si pastrare a permisului de lucru cu foc;","aprobarea unor instructiuni specifice de prevenire a incendiilor pentru astfel de lucrari."], 
             raspunsCorect:["A", "B" , "C" ,"D" ,"E"],
             puncte: 2 
         },
@@ -97,7 +97,7 @@ const bazaDeDate = {
         { 
           id: "2807",
           intrebare: "Instructiunile de aparare impotriva incendiilor cuprind:",
-          optiuni: ["prevederile specifice de aparare impotriva incendiilor din reglementarile in vigoare;", "obligatiile salariatilor privind respectarea programului de lucru", "obligatiile salariatilor privind apararea impotriva incendiilor;", "regulile si masurile specifice de aparare impotriva incendiilor pentru exploatarea instalatiilor potrivit conditiilor tehnice, tehnologice si organizatorice locale, precum si pentru reparatii, revizii, intretinere, oprire si punere in functiune;" , "evidentierea elementelor care determina riscul de incendiu sau de explozie;"],
+          optiuni: ["prevederile specifice de aparare impotriva incendiilor din reglementarile in vigoare;", "obligatiile salariatilor privind respectarea programului de lucru", "obligatiile salariatilor privind apararea impotriva incendiilor;", "regulile si masurile specifice de aparare impotriva incendiilor pentru exploatarea instalatiilor potrivit conditiilor tehnice, tehnologice si organizatorice locale, precum si pentru reparatii, revizii, intretinere, oprire si punere in functiune;","evidentierea elementelor care determina riscul de incendiu sau de explozie;"],
           raspunsCorect:["A", "C" ,"D" ,"E"],
           puncte: 2
         },
@@ -125,7 +125,7 @@ const bazaDeDate = {
         { 
           id: "3147",
           intrebare: "Organizarea interventiei de stingere a incendiilor la locul de munca cuprinde:",
-          optiuni: ["stabilirea componentei echipelor care trebuie sa asigure salvarea si evacuarea persoanelor/bunurilor, pe schimburi de lucru si in afara programului", "stabilirea sistemelor, instalatiilor si a dispozitivelor de limitare a propagarii si de stingere a incendiilor, a stingatoarelor si a altor aparate de stins incendii, a mijloacelor de salvare si de protectie a personalului, precizandu-se numarul de mijloace tehnice care trebuie sa existe la fiecare loc de munca", "evacuarea bunurilor periclitate de incendiu si protejarea echipamentelor care pot fi deteriorate in timpul interventiei;", "organizarea efectiva a interventiei, prin nominalizarea celor care trebuie sa utilizeze sau sa puna in functiune mijloacele tehnice din dotare" ,"verificarea spatiilor la terminarea programului de lucru"],
+          optiuni: ["stabilirea componentei echipelor care trebuie sa asigure salvarea si evacuarea persoanelor/bunurilor, pe schimburi de lucru si in afara programului", "stabilirea sistemelor, instalatiilor si a dispozitivelor de limitare a propagarii si de stingere a incendiilor, a stingatoarelor si a altor aparate de stins incendii, a mijloacelor de salvare si de protectie a personalului, precizandu-se numarul de mijloace tehnice care trebuie sa existe la fiecare loc de munca", "evacuarea bunurilor periclitate de incendiu si protejarea echipamentelor care pot fi deteriorate in timpul interventiei;", "organizarea efectiva a interventiei, prin nominalizarea celor care trebuie sa utilizeze sau sa puna in functiune mijloacele tehnice din dotare","verificarea spatiilor la terminarea programului de lucru"],
           raspunsCorect: ["A", "B" ,"D" ],
           puncte: 2
         }, 
@@ -160,7 +160,7 @@ const bazaDeDate = {
         { 
           id: "3778",
           intrebare: "Organizarea apararii impotriva incendiilor la locul de munca, consta in:",
-          optiuni: ["marcarea pericolului de incendiu prin montarea indicatoarelor de securitate sau a altor inscriptii ori mijloace de atentionare", "elaborarea documentelor specifice de instruire la locul de munca , desfasurarea propriuzisa si verificarea efectuarii acesteia", "marcarea poricolului prin dispozitii verbale", "organizarea interventiei de stingere a incendiilor"],
+          optiuni: ["marcarea pericolului de incendiu prin montarea indicatoarelor de securitate sau a altor inscriptii ori mijloace de atentionare", "elaborarea documentelor specifice de instruire la locul de munca, desfasurarea propriuzisa si verificarea efectuarii acesteia", "marcarea poricolului prin dispozitii verbale", "organizarea interventiei de stingere a incendiilor"],
           raspunsCorect: ["A", "B" ,"D" ],
           puncte: 2
         }, 
@@ -334,7 +334,7 @@ const bazaDeDate = {
 { 
           id: "3674",
           intrebare: "Echipamentul individual de protectie este:",
-          optiuni: [" echipamentul utilizat in procesul muncii pentru protejarea imbracamintei personale impotriva uzurii si murdaririi excesive", "aparatele, dispozitivele, uneltele si alte mijloace asemanatoare utilizate in procesul muncii", "totalitatea mijloacelor cu care este dotat fiecare participant la procesul de munca, pentru a fi protejat impotriva actiunii factorilor de risc de accidentare si imbolnavire profesionala"],
+          optiuni: ["echipamentul utilizat in procesul muncii pentru protejarea imbracamintei personale impotriva uzurii si murdaririi excesive", "aparatele, dispozitivele, uneltele si alte mijloace asemanatoare utilizate in procesul muncii", "totalitatea mijloacelor cu care este dotat fiecare participant la procesul de munca, pentru a fi protejat impotriva actiunii factorilor de risc de accidentare si imbolnavire profesionala"],
           raspunsCorect: ["C"],
           puncte: 3
         }, 
@@ -383,7 +383,7 @@ const bazaDeDate = {
         { 
           id: "3681",
           intrebare: "Zona de lucru trebuie sa se asigure dupa separarea electrica, prin efectuarea succesiva a urmatoarelor masuri tehnice, si anume :",
-          optiuni: [" identificarea instalatiei sau a partii din instalatie in care urmeaza a se lucra;", "verificarea lipsei tensiunii, urmata de legarea imediata a partii de instalatie la pamant si in scurtcircuit;", "delimitarea materiala a zonei de lucru;", "asigurarea impotriva accidentelor de natura electrica."],
+          optiuni: ["identificarea instalatiei sau a partii din instalatie in care urmeaza a se lucra;", "verificarea lipsei tensiunii, urmata de legarea imediata a partii de instalatie la pamant si in scurtcircuit;", "delimitarea materiala a zonei de lucru;", "asigurarea impotriva accidentelor de natura electrica."],
           raspunsCorect: ["A", "B" , "C"],
           puncte: 3
         }, 
@@ -704,7 +704,7 @@ const bazaDeDate = {
   },
   {
     id: "7678",
-    intrebare: "Utilizarea echipamentului de munca electric/instalatiei de clasa I de protectie trebuie sa se faca in urmatoarele conditii (alegeti variant sau variantele  corecte):",
+    intrebare: "Utilizarea echipamentului de munca electric/instalatiei de clasa I de protectie trebuie sa se faca in urmatoarele conditii (alegeti variant sau variantele corecte):",
     optiuni: ["sa se execute si sa se verifice periodic legaturile de protectie necesare pentru asigurarea protectiei impotriva electrocutarii in cazul unui defect soldat cu aparitia unei tensiuni periculoase de atingere;", "sa se asigure si sa se verifice periodic deconectarea automata a echipamentului electric/instalatiei sau sectorului defect si disparitia tensiunii periculoase de atingere;", "sa se verifice periodic ca izolatia suplimentara a echipamentului electric/instalatiei sa nu fie deteriorata sau eliminata;", "sa se verifice periodic ca protectia impotriva atingerii directe a pieselor aflate normal sub tensiune sa nu fie inlaturata sau deteriorata"],
     raspunsCorect: ["A", "B", "D"],
     puncte: 3
@@ -2339,7 +2339,7 @@ const bazaDeDate = {
   },
   {
     "id": "5937",
-    "intrebare": " La releul de distanta D114, urmatoarele afirmatii despre elementul de masurare a impedantei de defect M nu sunt adevarate ",
+    "intrebare": "La releul de distanta D114, urmatoarele afirmatii despre elementul de masurare a impedantei de defect M nu sunt adevarate ",
     "optiuni": [
       "in functie de pozitia fisei notate cu epsilon, situata pe panoul frontal al releului, diagrama de actionare, care este un cerc, poate avea diverse deplasari pe axa R",
       "pe partea de curent elemental de masurare este alimentat prin intermediul transformatorului P",
@@ -3302,7 +3302,7 @@ raspunsCorect: ["A", "C"],
         { 
           id: "6544",
           intrebare: "Care sunt principalele avantaje ale releelor polarizate folosite in elementele de demaraj ale protectiilor de distanta?",
-          optiuni: ["Sensibilitate mare, releele polarizate actionind si la puteri de ordinul a (10 la -2) ....5*(10 la -3) W", "Stabilitate termica mare, releele polarizate suportind curenti care depasesc de 100 de ori curentul minim de actionare", "Timpul propriu de actionare foarte mic de ordinul 2*(10 la -3) s", "Releul actioneaza nu numai la depasirea valorii curentului, ci si la schimbarea sensului de circulatie a acestuia."," Partea mobila a releului are inertie mare ceea ce conduce la insensibilizarea acestuia la socurile de curent."],
+          optiuni: ["Sensibilitate mare, releele polarizate actionind si la puteri de ordinul a (10 la -2) ....5*(10 la -3) W", "Stabilitate termica mare, releele polarizate suportind curenti care depasesc de 100 de ori curentul minim de actionare", "Timpul propriu de actionare foarte mic de ordinul 2*(10 la -3) s", "Releul actioneaza nu numai la depasirea valorii curentului, ci si la schimbarea sensului de circulatie a acestuia.","Partea mobila a releului are inertie mare ceea ce conduce la insensibilizarea acestuia la socurile de curent."],
           raspunsCorect: ["A",  "C" ,"D" ],
           puncte: 6
         }, 
@@ -3386,7 +3386,7 @@ raspunsCorect: ["A", "C"],
   {
     "id": "6639",
     "intrebare": "Pornirea unei scheme AAR trebuie comandata de:",
-    "optiuni": ["scaderea sub o anumita valoare a tensiunii pe bare (in acest caz pornirea se face cu intirziere):", "declansarea unuia dintre intreruptoarele alimentarii normale (in acest caz pornirea se face rapid);","protectia care comanda declansarea intreruptorului liniei principale." ],
+    "optiuni": ["scaderea sub o anumita valoare a tensiunii pe bare (in acest caz pornirea se face cu intirziere):", "declansarea unuia dintre intreruptoarele alimentarii normale (in acest caz pornirea se face rapid);","protectia care comanda declansarea intreruptorului liniei principale."],
     "raspunsCorect": ["A", "B"],
     "puncte": 5
   },
@@ -3420,7 +3420,7 @@ raspunsCorect: ["A", "C"],
       "Ridicarea caracteristicii se face la o tensiune de 100V si un curent de 5A.",
       "Ridicarea diagramelor releelor SW si SJ, in planul complex, se face prin decalarea curentului notandu-se pozitia stanga sau dreapta a contactului.",
       "Ridicarea diagramelor releelor SW si SJ, in planul complex, se face prin decalarea tensiunii notandu-se pozitia stanga sau dreapta a contactului.",
-      "Pentru a obtine diagrama de actionare a blocajului la pendulatii se suprapun diagramele releelor SW si SJ." ],
+      "Pentru a obtine diagrama de actionare a blocajului la pendulatii se suprapun diagramele releelor SW si SJ."],
     "raspunsCorect": [  "A" ,"C", "D" ],
     "puncte": 6
   },
@@ -4060,9 +4060,9 @@ raspunsCorect: ["A", "C"],
     intrebare: "Avantajele protectiei de gaze la transformatoarele de putere sunt:",
     optiuni: [
       "actioneaza la defecte trafo produse in conservator", 
-      " actioneaza la defecte trafo produse in interiorul cuvei", 
-      " actioneaza rapid si comanda semnalizarea sau declansarea in functie de caracterul defectului", 
-      " este o protectie simpla", 
+      "actioneaza la defecte trafo produse in interiorul cuvei", 
+      "actioneaza rapid si comanda semnalizarea sau declansarea in functie de caracterul defectului", 
+      "este o protectie simpla", 
       "actionarea releului de flux de ulei, care se formeaza in trafo in urma unor scurtcircuite exterioare violente."
       ], 
 raspunsCorect: ["B", "C","D"],
@@ -4086,7 +4086,7 @@ raspunsCorect: ["B", "C","D"],
       "utilizarea releelor de protectie cu saturatie rapida", 
       "blocarea protectiei la armonici superioare ale curentului de magnetizare", 
       "utilizarea transformatoarelor de egalizare", 
-      "modificarea raportului de transformare la transformatoarele de curent de pe partea de 110 kV" ],
+      "modificarea raportului de transformare la transformatoarele de curent de pe partea de 110 kV"],
     raspunsCorect: ["A", "B"],
     puncte: 2
   },
@@ -7196,8 +7196,8 @@ raspunsCorect: ["B", "C","D"],
     intrebare: "Protectia selectiva a barelor va comanda, de regula:",
     optiuni: [
       "declansarea tuturor intreruptoarelor elementelor conectate la bara respectiva, indifferent daca prin ele se alimenteaza sau nu defectul; in cazul transformatoarelor, in functie de numarul infasurarilor si de schema de conectare, se va comanda si declansarea intreruptoarelor de pe celelalte infasurari.",
-      " blocarea locala a reanclansarii automate a liniilor racordate la bara respectiva.",
-      " teledeclansarea cu blocare RAR a intreruptorului de la capatul opus, in cazul liniilor racordate la bare sau la schema poligonala, prevazute cu canale de transmisie",
+      "blocarea locala a reanclansarii automate a liniilor racordate la bara respectiva.",
+      "teledeclansarea cu blocare RAR a intreruptorului de la capatul opus, in cazul liniilor racordate la bare sau la schema poligonala, prevazute cu canale de transmisie",
    "pornirea schemelor de DRRI asociate intreruptoarelor comandate, in cazul transformatoarelor de putere (intreruptorul de la celalalt nivel de tensiune), al cuplelor transversale si longitudinale, in cazul barelor cu 11/2 -2 intreruptoare pe circuit si in cazul schemelor poligonale.",
       "blocarea conectarii tuturor intreruptoarelor declansate prin protectia de bare si DRRI, pana la deblocarea prin buton local",  ],
      raspunsCorect: ["A","B", "C","D" ,"E"],
@@ -8959,7 +8959,7 @@ raspunsCorect: ["B", "C","D"],
     id: "9138",
     intrebare: "Referitor la protectia diferential longitudinala a unui trafo de putere ce are conexiunea Y/d, urmatoarele afirmatii sunt adevarate:",
     optiuni: [
-      " valoarea curentului de pornire al protectiei trebuie aleasa superior curentului de conectare in gol a trafo", 
+      "valoarea curentului de pornire al protectiei trebuie aleasa superior curentului de conectare in gol a trafo", 
       "TSR(transformatoarele cu saturatie rapida) in schema PDL(protectia diferential longitudinale) transforma foarte slab componenta aperiodica de magnetizare si sunt eficiente impotriva socului de magnetizare", 
       "TSR sunt eficiente impotriva curentului de dezechilibru provocat de reglarea sub sarcina a trafo"
     ],
