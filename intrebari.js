@@ -5109,9 +5109,9 @@ raspunsCorect: ["B", "C","D"],
         id: "7577",
         intrebare: "La transformatoarele de tensiune inductiva monofazate romanesti, a doua infasurare auxiliara are tensiunea nominala, in cazul folosirii transformatorului in retele cu punctul neutru legat la pamant prin bobina de stingere, de:",
         optiuni: [
-            "100/√3V",
+            "100/3V",
             "100V",
-            "100/3V"
+            "100/√3V"
         ],
         raspunsCorect: ["A"],
         puncte: 2
